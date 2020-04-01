@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<html style="height:100%">
+
+<head>
+  <meta charset=utf-8 />
+  <title>BlackSheep | IPTV</title>
+  <link href="./css/video.css" rel="stylesheet">
+  <script src="./js/video.js"></script>
+  <script src="./js/videojs-live.js"></script>
+  <style>
+    .Bigbox {
+      /*大块*/
+      width: 100%;
+      text-align: center;
+    }
+
+    .Vbox {
+      /*小块*/
+      color: white;
+      display: inline-block;
+      width: 350px;
+      height: 220px;
+      padding: 40px 20px;
+      font-size: 1.2vw;
+    }
+
+    Body {
+      background: #FFF url(./pic/map.png) no-repeat 0 0 fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="Bigbox">
+      <div class="Vbox">
+        <div class="boximg"><video id="ch1-Xihu" class="video-js" autoplay muted width="350" height="200" poster="./pic/tvb.png" data-setup="{}">
+            <source src="http://192.168.1.105/0.m3u8" type="application/x-mpegURL">
+          </video>
+        </div>
+        <div class="boxtext">
+          <p>CH1 Xihu Info</p>
+        </div>
+      </div>
+        <div class="Vbox">
+        <div class="boximg"><video id="ch1-Nanhai" class="video-js" autoplay muted width="350" height="200" poster="./pic/tvb.png" data-setup="{}">
+            <source src="http://192.168.1.103/14.m3u8" type="application/x-mpegURL">
+          </video>
+        </div>
+        <div class="boxtext">
+          <p>CH1 Nanhai</p>
+        </div>
+      </div>
+      <div class="Vbox">
+        <div class="boximg"><video id="ch42-tvb" class="video-js" autoplay muted width="350" height="200" poster="./pic/tvb.png" data-setup="{}">
+            <source src="http://192.168.1.102/4.m3u8" type="application/x-mpegURL">
+          </video>
+        </div>
+        <div class="boxtext">
+          <p>CH42 TVB Jade</p>
+        </div>
+      </div>
+      <div class="Vbox">
+        <div class="boximg"><video id="ch42-tvbj2" class="video-js" autoplay muted width="350" height="200" poster="./pic/tvbj2.png" data-setup="{}">
+            <source src="http://192.168.1.103/0.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH43 TVB J2</p>
+        </div>
+      </div>
+      <div class="Vbox">
+        <div class="boximg"><video id="ch52-cntv" class="video-js" autoplay muted width="350" height="200" poster="./pic/cntv.png" data-setup="{}">
+            <source src="http://192.168.1.103/12.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH52 CNTV</p>
+        </div>
+      </div>
+      <div class="Vbox">
+        <div class="boximg"><video id="ch56-discovery" class="video-js" autoplay muted width="350" height="200" poster="./pic/discovery.png" data-setup="{}">
+            <source src="http://192.168.1.102/10.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH56 Discovery</p>
+        </div>
+      </div>
+<!--       <div class="Vbox">
+       <div class="boximg"> <video id="ch62-astspt1" class="video-js" autoplay muted width="350" height="200" poster="./pic/ast1.png" data-setup="{}">
+            <source src="http://192.168.1.101/10.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH62 Astro Sport 1</p>
+        </div>
+      </div>
+    -->
+      <div class="Vbox">
+        <div class="boximg"><video id="ch63-astspt2" class="video-js" autoplay muted width="350" height="200" poster="./pic/ast2.png" data-setup="{}">
+            <source src="http://192.168.1.101/12.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH63 Astro Sport 2</p>
+        </div>
+      </div>
+      <div class="Vbox">
+        <div class="boximg"><video id="ch55-Animal" class="video-js" autoplay muted width="350" height="200" poster="./pic/animal.png" data-setup="{}">
+            <source src="http://192.168.1.102/8.m3u8" type="application/x-mpegURL">
+          </video></div>
+        <div class="boxtext">
+          <p>CH55 Animal</p>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+<script>
+
+</script>
+
+</html>
