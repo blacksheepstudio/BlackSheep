@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Devices</key>
+	<dict>
+		<key>FakeID</key>
+		<dict>
+			<key>IntelGFX</key>
+			<string>0x04128086</string>
+		</dict>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>ig-platform-id</key>
+		<string>0x0d220003、Inject Intel</string>
+	</dict>
+</dict>
+</plist>
