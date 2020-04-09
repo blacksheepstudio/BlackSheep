@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black Sheep</title>													<!--页面标题-->
+    
+    <meta charset="UTF-8">														<!--编码格式-->
+    <meta name="keywords" content="关键字">										 <!--页面关键字-->
+    <meta name="description" content="简介">                                     <!--页面描述-->
+    <meta name="author" content="Black Sheep">									<!--作者信息-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		<!--自适应-->
+    <link rel="icon" href="icon.png">											<!--页面图标-->
+    <link rel="stylesheet" href="main.css">										<!--链接外部样式表-->
+    <script type="text/javascript"src=main.js></script>						    <!--插入js脚本-->
+</head>
+    
+<body>
+    <form action="" class="form1">
+        <fieldset>
+            <legend>登陆</legend>
+            <label for="name">用户名：</label><input type="text" name="name"autofocusr value="请输入用户名" id=name>
+            <br>
+            <label for="password">密码：</label><input type="text" name="password"value="请输入密码"id=password>
+            <br>
+            <button type="submit">登陆</button>
+        </fieldset>
+        <fieldset>
+            <legend>注册</legend>
+            <label for="name">用户名：</label><input type="text" name="nameget"autofocusr value="请输入用户名" >
+            <br>
+            <label for="password">密码：</label><input type="text" name="passwordget"value="请输入密码"id=passwordget>
+            <br>
+            <label for="sex">性别：
+                <select name="sex">
+                    <optgroup label="正常">
+                        <option value="male">男</option>
+                        <option value="female">女</option>
+                    </optgroup>
+                    <optgroup label="不正常">
+                        <option value="female">无</option>
+                        <option value="female">其他</option>
+                        <option value="female">都是</option>
+                    </optgroup>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+</body>
+    
+</html>

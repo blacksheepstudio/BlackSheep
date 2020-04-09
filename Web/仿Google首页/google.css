@@ -1,0 +1,53 @@
+.g1{
+    color: blue;
+}
+.o1{
+    color: red;
+}
+.o2{
+    color: yellow;
+}
+.g2{
+    color: blue;
+}
+.l{
+    color: green;
+}
+.e{
+    color: red;
+}
+h1{
+    font-size: 75px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: -10px;
+}
+.search{
+    border:none;
+    margin-top: -2%;
+    text-align: center;
+}
+.sbox{
+    width:450px;
+    height:35px;
+    border-radius:30px; 
+    border:1px solid rgb(206, 206, 206);
+}
+
+button{
+    font-size: 10px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(61, 61, 61);
+    height: 30px;
+    width: 100px;
+    border:none;
+    border-radius:3px; 
+}
+.btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn1{
+    margin-right: 10px;
+}
